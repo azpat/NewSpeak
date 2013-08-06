@@ -8,10 +8,14 @@ Suppose you have the following phrase:
 The Queen of Hearts used enhanced interrogation on the White Rabbit.
 
 NewSpeak will render it as:
-The Queen of Hearts used <strike>torture</strike> <i>enhanced interrogation</i> on the White Rabbit.
+
+
+The Queen of Hearts used ~~torture~~ <i>enhanced interrogation</i> on the White Rabbit.
 
 Optionally, NewSpeak can restore the old language. In this case, NewSpeak will render it as:
-The Queen of Hearts used <strike>enhanced interrogation</strike> <i>torture</i> on the White Rabbit.
+
+
+The Queen of Hearts used ~~enhanced interrogation~~ <i>torture</i> on the White Rabbit.
 
 Installation
 ------------
