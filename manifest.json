@@ -1,8 +1,8 @@
 {
-  "name": "NewSpeak",
+  "name": "__MSG_extName__",
   "version": "0.0.1",
   "manifest_version": 2,
-  "description": "NewSpeak is a web browser extension to reveal newspeak and optionally restore oldspeak.",
+  "description": "__MSG_extDesc__",
   "homepage_url": "https://github.com/azpat/NewSpeak",  
   "default_locale": "en",
   "permissions": [
