@@ -1,0 +1,71 @@
+<html>
+  <head>
+    <title>Options for NewSpeak</title>
+    <script type="text/javascript" src="options.js"></script>
+    <link type="text/css" rel="stylesheet" href="options.css" />
+  </head>
+  <body>
+    <img src="icons/banner.png"/ class="banner"> 
+    <hr/>
+    <form>
+      <fieldset>
+      <legend>Display Preference</legend>
+        <dl><dt>Original</dt><dd>The Queen of Hearts used enhanced interrogation on the White Rabiit.</dd></dl>
+        <label for="reveal">
+        <div class="radio-option">
+        <dl>
+          <dt><input type="radio" id="reveal" name="DisplayPreference" checked="checked">Reveal NewSpeak</input></dt>
+          <dd>The Queen of Hearts used <span title="NewSpeak"><del>torture</del> <ins style='font-style:italic;'>enhanced interrogation</ins></span> on the White Rabbit.</dd>
+        </dl>
+        </div>        
+        </label>
+        <label for="restore">
+        <div class="radio-option">        
+        <dl>
+          <dt><input type="radio" id="restore" name="DisplayPreference">Restore OldSpeak</input></dt>
+          <dd>The Queen of Hearts used <span title="NewSpeak"><del>enhanced interrogation</del> <ins style='font-style:italic;'>torture</ins></span> on the White Rabbit.</dd>
+        </dl>
+        </dl>
+        </div>
+        </label>
+      </fieldset>
+<!--      
+<hr/>
+    <fieldset>
+    <legend>Terms</legend>    
+      <table>
+      <tr>
+        <th>NewSpeak</th>
+        <th>OldSpeak</th>        
+      </tr>
+      <tr>
+        <td><input type="text" value="enhanced interrogation"/></td>
+        <td><input type="text" value="torture"/></td>        
+      </tr>
+      <tr>
+        <td><input type="text" value="targeted killing"/></td>
+        <td><input type="text" value="assassination"/></td>        
+      </tr>
+      <tr>
+        <td><input type="text" value="prisoner"/></td>
+        <td><input type="text" value="detainee"/></td>        
+      </tr>
+      <tr>      
+        <td><input type="text" name="OldTerm"/></td>
+        <td><input type="text" name="NewTerm"/></td>
+        <td><button>Add Term</button></td>
+      </tr>
+      </table>
+      </fieldset>    
+<hr/>
+-->
+<div id="formbuttons">
+    <button class="save">Save</button>
+    <button class="reset">Reset</button>
+</div>
+    </form>
+  </body>
+</html>
+<!-- http://julip.co/2010/01/how-to-build-a-chrome-extension-part-2-options-and-localstorage/ -->
+<!-- http://www.randomsnippets.com/2008/02/21/how-to-dynamically-add-form-elements-via-javascript/ -->
+<!-- http://learn.shayhowe.com/html-css/building-forms -->

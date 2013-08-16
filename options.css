@@ -1,0 +1,50 @@
+input[type='radio']:hover+label, 
+input[type='radio']:active+label,
+.radio-option:hover,
+.radio-option:active{
+  background:white;
+  font-weight:bold;
+}
+form {
+  padding-top: 1em;
+  border:1px solid #cccccc;
+  background: -webkit-linear-gradient(90deg, #EEEEEE, #FFFFFF) repeat scroll 0 0 transparent;
+}
+fieldset{
+  text-align: left;
+  border: 1px solid #000000;
+  background: -webkit-linear-gradient(90deg, #EEEEEE, #FFFFFF) repeat scroll 0 0 transparent;
+  padding-top: 1em;
+  border-radius: 5px 5px 0px 0px;
+  box-shadow: 0 0 15px #AAAAAA;
+}
+legend {
+  border:1px solid #cccccc;
+  background:white;
+  font-size: large;  
+  font-weight:bold;
+  padding: 3px 15px 2px 15px;
+  box-shadow: 3px 3px 3px #AAAAAA;
+}
+.radio-option{
+  border:1px solid #cccccc;
+  border-radius: 10px 10px 10px 10px;
+}
+button{
+  border: 2px 2px 2px 2px solid;
+  font-size: large;
+  padding: 3px 15px 2px 15px;
+  box-shadow: 1px 1px 1px #AAAAAA;
+  text-align:center;
+}
+.banner {
+  box-shadow: 10px 10px 10px #000000;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+#formbuttons {
+  text-align:center;
+  padding-top:15px;
+  padding-bottom:15px;
+}

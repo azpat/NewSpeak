@@ -8,6 +8,7 @@
   "permissions": [
     "http://*/*"
   ],
+  "options_page": "options.html",
   "content_scripts": [
     {
       "matches": [
@@ -18,5 +19,10 @@
 	  "run_at" : "document_idle",
       "all_frames" : false
     }
-  ]
+  ],
+  "background": {
+    "scripts": [
+      "background.js"
+    ]
+  }
 }
