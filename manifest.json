@@ -1,10 +1,13 @@
 {
   "name": "__MSG_extName__",
-  "version": "0.0.1",
+  "version": "0.2.0",
   "manifest_version": 2,
   "description": "__MSG_extDesc__",
   "homepage_url": "https://github.com/azpat/NewSpeak",  
   "default_locale": "en",
+  "icons": { "16": "icons/NS_16.png",
+           "48": "icons/NS_48.png",
+          "128": "icons/NS_128.png" },
   "permissions": [
     "http://*/*"
   ],
