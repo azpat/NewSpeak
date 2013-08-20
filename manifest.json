@@ -6,20 +6,18 @@
   "homepage_url": "https://github.com/azpat/NewSpeak",  
   "default_locale": "en",
   "icons": { "16": "icons/NS_16.png",
-           "48": "icons/NS_48.png",
-          "128": "icons/NS_128.png" },
+             "48": "icons/NS_48.png",
+             "128": "icons/NS_128.png" },
   "permissions": [
     "http://*/*"
   ],
   "options_page": "options.html",
   "content_scripts": [
     {
-      "matches": [
-        "http://*/*",
-		"https://*/*"
-		],
+      "matches": ["http://*/*", "https://*/*"],
+      "exclude_matches" : ["https://github.com/azpat/NewSpeak", "http://github.com/azpat/NewSpeak"]
       "js": ["inject.js"],
-	  "run_at" : "document_idle",
+      "run_at" : "document_idle",
       "all_frames" : false
     }
   ],
